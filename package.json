@@ -1,0 +1,31 @@
+{
+  "name": "npmupdatebot",
+  "version": "0.1.0",
+  "description": "Fetch updates from npm",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LestaD/npmupdatebot.git"
+  },
+  "keywords": [
+    "bot",
+    "npm",
+    "telegram",
+    "package",
+    "update"
+  ],
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LestaD/npmupdatebot/issues"
+  },
+  "homepage": "https://github.com/LestaD/npmupdatebot#readme",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "telegraf": "^3.9.0",
+    "telegraf-session-redis": "^4.2.0"
+  }
+}
